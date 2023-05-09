@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    max-width: 1550px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul,li,a,p,h1{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: space-between;
+     
+    background-color: rgba(82, 80, 80, 0.4);
+}
+
+.Logo{
+    margin:0 0 0 20px;
+    color: rgb(243, 217, 74);
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 0 20px 0 0;
+}
+
+li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+.bonner{
+    width: 100%;
+    height: 100vh;
+}
+.cool{
+    width: 100%;
+    height: 50%;
+}
+
+.cards{
+    margin: 10px;
+    display: flex;
+    gap: 1rem;    
+
+}
+.card{
+
+    width: 500px;
+    height: 300px;
+}
+
+.coolr{
+    width: 100%;
+    height: 50%;
+}
+.content{
+    width: 100%;
+    height: 50%;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.prise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+
+}
+
+.click{
+    width: 100%;
+}
